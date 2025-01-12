@@ -17,5 +17,8 @@
     "hardhat": "^2.22.17",
     "hardhat-ethers": "^1.0.1",
     "ipfs-http-client": "^60.0.1"
+  },
+  "dependencies": {
+    "vite": "^6.0.7"
   }
 }
