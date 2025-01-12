@@ -68,7 +68,7 @@ Follow the steps below to configure and deploy the platform:
 
    - Retrieve one of the miner’s key files located in `infrastructure/datadir/keystore` and its corresponding password from `infrastructure/datadir/accounts.json` (in the `miners` section).
 
-   - Decrypt the key file by running the following command in the `geth-decrypt-key` directory:
+   - Decrypt the key file by running the following command in the `geth-decrypt-key` directory (clone this repo : "https://github.com/bsdelf/geth-decrypt-key.git"):
 
      ```shell
      ./geth-decrypt-key -key /path/to/keystore/file -password <password>
@@ -89,3 +89,4 @@ Deploy the contract to the custom blockchain network:
 
 ```bash
 npx hardhat run scripts/deploy.js --network customNetwork
+
